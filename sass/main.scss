@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@1,500&family=Kdam+Thmor+Pro&display=swap');
+
+// Color variable 
+$highlight:#cab53d;
+$boldfont: #ce641e;
+$occofold:#595c5f;
+*{
+       padding: 0;
+       margin: 0;   
+   }
+.accordion-item{
+
+       border: none;
+       border-bottom: 1px rgb(244, 244, 244) solid;
+       font-family: 'DM Sans', sans-serif;
+
+       .OccoColor{
+              background-color: $highlight;
+       }
+       .occofold{
+              color: white;
+              background-color:$occofold;
+              strong{
+                     color: #4fb2e4;
+              }
+       }
+        
+}
+.sca{
+       transition: all .2s ease-in-out; 
+}
+.sca:hover{
+       transform: scale(1.15); 
+}
+
+   
+.mainlo{
+       text-align: center;
+}
+h2{
+       text-align: center;
+       font-size:2cm;
+       color:rgb(0, 0, 0);
+       font-family: 'Bebas Neue', cursive;
+
+}
+.card-body{
+
+       h5{
+              font-family: 'Kdam Thmor Pro', sans-serif;
+
+       }
+       p{
+              font-family: 'DM Sans', sans-serif;
+
+       }
+}
+.logo{
+       font-family: 'DM Sans', sans-serif;
+       color:$boldfont;
+       display: flex;
+       text-decoration: none;
+}
